@@ -27,7 +27,7 @@ export const Form = styled.form`
   margin-top: 30px;
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 100%;
   padding: 0px 5%;
   align-items: center;
   justify-content: center;
@@ -38,7 +38,6 @@ export const Form = styled.form`
     padding: 10px 15px;
     border-radius: 4px;
     font-size: 17px;
-    margin-left: 5px;
   }
 `;
 
