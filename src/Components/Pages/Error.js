@@ -1,11 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Container, GoBackButton, Row } from '../Styles/errorStyles';
+import { FaRegSadTear } from 'react-icons/fa'
 
-export default function Home() {
+export default function Error() {
  return (
-   <div>
-      <h1> Lamento, página não encontrada :/ </h1>
-      <Link to="/"> Voltar para home </Link>
-   </div>
+   <Container>
+      <Row>
+
+        <h3> Lamento, página não encontrada </h3>
+        <FaRegSadTear size={17.5} color="#fff"/>
+
+      </Row>
+      <GoBackButton to="/">
+
+        Ir para Home
+
+      </GoBackButton>
+   </Container>
  );
 }
