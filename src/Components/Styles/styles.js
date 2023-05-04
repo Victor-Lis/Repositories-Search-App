@@ -27,6 +27,9 @@ export const Form = styled.form`
   margin-top: 30px;
   display: flex;
   flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 
   input{
     flex:10;
@@ -35,12 +38,6 @@ export const Form = styled.form`
     border-radius: 4px;
     font-size: 17px;
   }
-  button{
-
-    flex: 1;
-
-  }
-
 `;
 
 //Criando animcação do botao
@@ -62,7 +59,7 @@ export const SubmitButton = styled.button.attrs(props => ({
   border: 0;
   border-radius: 4px;
   /* margin-left: 0px; */
-  padding: 0 15px;
+  padding: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
