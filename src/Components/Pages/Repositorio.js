@@ -27,15 +27,7 @@ export default function Repositorio() {
 
   function handlePage(action){
 
-    if(action === "next" && page < issues.length){
-
-      setPage(page+1)
-      
-    }else if(action === "back" && page > 1){
-
-      setPage(page-1)
-
-    }
+    setPage(action === "next"? page+1: page-1)
 
   }
 

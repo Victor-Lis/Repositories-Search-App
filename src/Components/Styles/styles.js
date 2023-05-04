@@ -5,7 +5,7 @@ export const Container = styled.div`
   background: #FFF;
   border-radius: 4px;
   box-shadow: 0 0 20px rgba(0,0,0, 0.2);
-  padding: 30px;
+  padding: 20px;
   margin: 80px auto;
 
   h1{
@@ -25,7 +25,7 @@ export const Container = styled.div`
 
 export const Form = styled.form`
   margin-top: 30px;
-  display:flex;
+  display: flex;
   flex-direction: row;
 
   input{
@@ -56,7 +56,7 @@ export const SubmitButton = styled.button.attrs(props => ({
   background:#0D2636;
   border: 0;
   border-radius: 4px;
-  margin-left: 10px;
+  /* margin-left: 0px; */
   padding: 0 15px;
   display: flex;
   justify-content: center;
