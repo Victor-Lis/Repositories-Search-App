@@ -27,12 +27,13 @@ export const Form = styled.form`
   margin-top: 30px;
   display: flex;
   flex-direction: row;
-  width: 90%;
-  padding: 0px 10px;
+  width: 100%;
   align-items: center;
   justify-content: center;
 
   input{
+    margin-left: 5px;
+    flex: 1;
     border: 1px solid ${props => props.error? "#FF0000": "#eee"};
     padding: 10px 15px;
     border-radius: 4px;
