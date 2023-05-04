@@ -28,6 +28,7 @@ export const Form = styled.form`
   display: flex;
   flex-direction: row;
   width: 90%;
+  padding: 0px 10px;
   align-items: center;
   justify-content: center;
 
